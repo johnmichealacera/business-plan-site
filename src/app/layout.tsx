@@ -9,6 +9,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Isla Paraiso Beach Resort",
   description: "Your Island Escape Awaits - Isla Paraiso Beach Resort in the Philippines.",
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico' }
+    ],
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
